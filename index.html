@@ -35,6 +35,11 @@
         margin-top: 10px;
         padding: 10px 16px;
       }
+              table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse; 
+            padding: 8px;
+        }
     </style>
   </head>
 
@@ -61,11 +66,11 @@
         <button>Filler</button>
       </div>
     </main>
-    <h2 id="events">Upcoming Events</h2>
+    <h2 id="events">Cruise Artinerary</h2>
 <table id="event-table">
   <thead>
     <tr>
-      <th>Event Name </th>
+      <th>Event </th>
       <th>Date</th>
       <th>Time</th>
       <th>Location</th>
@@ -73,25 +78,25 @@
   </thead>
   <tbody>
 <tr>
-  <td>Gardening Workshop</td>
-  <td>January 18th, 2026</td>
-  <td>4:00 pm</td>
-  <td>Community Center Garden</td>
+  <td>Boarding</td>
+  <td>January 19th, 2026</td>
+  <td> 2:12 pm </td>
+  <td> Port Tampa Bay </td>
 
 </tr>
 
 <tr>
-  <td>Meal Prep Workshop</td>
-  <td>Febuary 7thth, 2026</td>
-  <td>12:00 pm</td>
-  <td>Community Center </td>
+  <td> Dinner </td>
+  <td>January 19th, 2026</td>
+  <td> 5:00pm-8:30pm</td>
+  <td> Poop Deck Cafe </td>
 </tr>
 
 <tr>
-  <td>Earth Day Celebration</td>
-  <td>April 20th, 2026</td>
-  <td>6:00 pm</td>
-  <td>City Park</td>
+  <td> Sea Sick Sipping (21+) </td>
+  <td>January 19th-20th, 2026</td>
+  <td>8:45pm-2:00am</td>
+  <td>Poop Deck Tikki Bar</td>
 </tr>
 </tbody>
 <tfoot>
@@ -118,35 +123,45 @@
 
 <h4> Country of Origan</h4>
 <div>
-<select id="country" name="country" required>
-  <option value="us">United states</option>
-  <option value="ca">Canada</option>
-  <option value="uk">United kingdom</option>
-  <option value="au">Australia</option>
+<select id="Browser" name="Select Browser" >
+  <option value="MEdge">Microsoft Edge</option>
+  <option value="GChrome">Google Chrome</option>
+  <option value="FFox">Fire Fox</option>
+  <option value="Bing">Bing</option>
+  <option value="Safari">Safari</option>
   <option value="other">Others</option>
 </select>
 </div>
+  
+   <div> 
+    <h4> Are you enjoying your day </h4>
+    <input type="radio" id="yes" name="button1" value="value1" >
+    <label for="yes"> YES </label>
+    
+    <input type="radio" id="no" name="button2" value="value2" >
+    <label for="no"> NO </label>    
+  </div>
 
-
+    
   <div>
-    <h4>Sign up Position</h4>
+    <h4>How did I do</h4>
     <label>
       <input type="checkbox" name="subscribe" value="yes" >
-      Staff    
+      Awsome    
       </label>
   </div>
 
   <div>
        <label>
       <input type="checkbox" name="subscribe" value="yes" >
-      Youth     
+      Outstanding     
       </label>
   </div>
 
   <div>
        <label>
       <input type="checkbox" name="subscribe" value="yes" >
-      Doner
+      Flawless!
       </label>
 </div>
 <div>
