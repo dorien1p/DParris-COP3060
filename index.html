@@ -61,5 +61,97 @@
         <button>Filler</button>
       </div>
     </main>
+    <h2 id="events">Upcoming Events</h2>
+<table id="event-table">
+  <thead>
+    <tr>
+      <th>Event Name </th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr>
+  <td>Gardening Workshop</td>
+  <td>January 18th, 2026</td>
+  <td>4:00 pm</td>
+  <td>Community Center Garden</td>
+
+</tr>
+
+<tr>
+  <td>Meal Prep Workshop</td>
+  <td>Febuary 7thth, 2026</td>
+  <td>12:00 pm</td>
+  <td>Community Center </td>
+</tr>
+
+<tr>
+  <td>Earth Day Celebration</td>
+  <td>April 20th, 2026</td>
+  <td>6:00 pm</td>
+  <td>City Park</td>
+</tr>
+</tbody>
+<tfoot>
+ 
+</tfoot>
+</table>
+
+
+    
+  <h2 id="volunteer">Volunteer Sign Up Form</h2>
+  <form method="post" action="#">
+<div>
+  <input type="text" id="Firstname" placeholder="Firstname" required>
+  <input type="text" id="Lastname" placeholder="Lastname" required>
+</div>
+<div>
+  <input type="email" id="Email" placeholder="Email" required>
+  <input type="password" id="Password" placeholder="Password" required>
+  <input type="number" id="Number" placeholder="Number" required>
+</div>  
+
+  <input type="datetime-local" id="DOB" placeholder="endter your DOB" required>
+
+
+<h4> Country of Origan</h4>
+<div>
+<select id="country" name="country" required>
+  <option value="us">United states</option>
+  <option value="ca">Canada</option>
+  <option value="uk">United kingdom</option>
+  <option value="au">Australia</option>
+  <option value="other">Others</option>
+</select>
+</div>
+
+
+  <div>
+    <h4>Sign up Position</h4>
+    <label>
+      <input type="checkbox" name="subscribe" value="yes" >
+      Staff    
+      </label>
+  </div>
+
+  <div>
+       <label>
+      <input type="checkbox" name="subscribe" value="yes" >
+      Youth     
+      </label>
+  </div>
+
+  <div>
+       <label>
+      <input type="checkbox" name="subscribe" value="yes" >
+      Doner
+      </label>
+</div>
+<div>
+<button type="submit">Submit</button>
+</div>
+</form>  
   </body>
 </html>
