@@ -1,0 +1,68 @@
+/* TYPE SELECTORS */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px; /* box model */
+  background-color: #f4f4f4;
+}
+
+/* Distinct heading colors */
+h1 {
+  color: #2c3e50;
+}
+
+h2 {
+  color: #006400;
+}
+
+/* CLASS SELECTOR (changes paragraph text color) */
+.highlight {
+  color: #0057b7;
+}
+
+/* ID SELECTOR (one element stands out uniquely) */
+#special {
+  background: #fafafa;
+  border: 2px solid #0c3258;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.top-buttons button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.button-group button {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 10px 16px;
+}
+
+/* Table styling */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+#event-table {
+  margin-top: 10px;
+  width: 100%;
+}
